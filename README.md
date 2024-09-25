@@ -12,7 +12,7 @@
 On https://cryptograms.puzzlebaron.com/play.php click the extension and toggle whether spaces and punctuation appear in the puzzle
 
 ## Demo
-[<img src="media/AristoDemo.png" />]
-[<img src="media/PatDemo.png" />]
+<img src="media/AristoDemo.png" height:25vh />
+<img src="media/PatDemo.png" height:25vh  />
 
 ## About
