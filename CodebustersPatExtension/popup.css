@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  height: 140px;
+  width: 220px;
+  border: 4px solid #f7fcfc
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(#155d8b,#262d38) ;
+  background-size: auto;
+  box-shadow: 2px 2px 4px #87d1ff inset, -2px -2px 4px #87d1ff inset;;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+  color: #f7fcfc;
+  padding-bottom: 10px;
+}
+label {
+  font-size: 16px;
+  color: #f7fcfc;
+  padding: 5px;
+}
+input[type=radio] {
+  accent-color: #155d8b;
+}
+p{
+  color: #f7fcfc;
+  text-align: center;
+}
+a{
+  all:unset;
+  text-decoration: underline;
+  cursor: pointer;
+}

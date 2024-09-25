@@ -1,0 +1,40 @@
+{
+    "name": "Puzzle Baron to Pat",
+    "manifest_version": 3,
+    "icons": {
+      "16": "assets/icon.png",
+      "32": "assets/icon.png",
+      "48": "assets/icon.png",
+      "128": "assets/icon.png"
+    },
+    "version": "1.6.9",
+    "description": "Remove info from Puzzle Baron crytograms",
+    "permissions": ["storage", "tabs"],
+    "host_permissions": ["https://cryptograms.puzzlebaron.com/*"],
+
+    "content_scripts": [
+      {
+        "matches": ["https://cryptograms.puzzlebaron.com/play.php*"],
+        "js": ["contentScript.js"]
+      }
+    ],
+
+    "web_accessible_resources": [
+      {
+        "resources": [],
+        "matches": ["https://cryptograms.puzzlebaron.com/*"]
+      }
+    ],
+
+    "action": {
+      "default_icon": {
+        "24": "assets/icon.png",
+        "16": "assets/icon.png",
+        "32": "assets/icon.png",
+        "48": "assets/icon.png",
+        "128": "assets/icon.png"
+      },
+      "default_title": "Pat Practicer",
+      "default_popup": "popup.html"
+    }
+}
