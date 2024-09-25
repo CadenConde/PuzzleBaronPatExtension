@@ -16,4 +16,5 @@ On https://cryptograms.puzzlebaron.com/play.php click the extension and toggle w
 <img src="media/PatDemo.png" width="600"/>
 
 ## About
-During the 2023-2024 season, my high school science olympiad was looking for resources to help practice for the "Codebusters" event (a timed code cracking event). One type of code, "Aristocrats" (aka cryptograms) already had a very nice practice website: https://cryptograms.puzzlebaron.com/. However, another type of code, "Patristocrats" (Aristocrats without spaces and punctuation) has no resources online. To fix this, I created this quick chrome extension to edit the HTML/CSS of the site to hide this information. Apparently it was useful, because the team placed 2nd in the state in that event!
+During the 2023-2024 season, my high school science olympiad team was looking for resources to help practice for the "Codebusters" event (a timed code cracking event). One type of code, "Aristocrats" (aka cryptograms) already had a very nice practice website: https://cryptograms.puzzlebaron.com/. However, another type of code, "Patristocrats" (Aristocrats without spaces and punctuation) has no resources online. To fix this, I created this quick chrome extension to edit the HTML/CSS of the site to hide this information. 
+Apparently it was useful, because the team placed 2nd in the state in that event!
